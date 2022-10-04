@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+.mobile-view{
+    display: none;
+}
+.desktop_view{
+    display: block;
+}
+.tablet-view{
+    display: none;
+
+}
+
+@media screen and (max-width:960px){
+    .tablet-view{
+        display: block;
+
+    }
+    .desktop_view{
+        display: none;
+    }
+    .mobile-view{
+        display: none;
+       
+    }
+
+}
+
+@media screen and (max-width:768px){
+    .mobile-view{
+        display: block;
+       
+    }
+
+
+ .desktop_view{
+    display: none;
+}
+.tablet-view{
+    display: none;
+
+}
+}
